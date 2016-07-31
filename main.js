@@ -16,7 +16,7 @@ function draw() {
     var time = new Date();
     ctx.rotate( (((2*Math.PI)/60)*time.getSeconds() + ((2*Math.PI)/60000)*time.getMilliseconds()));
     ctx.beginPath();
-    ctx.arc(100, 100, 35, 0, 2*Math.PI);
+    ctx.arc(100, 100, 25, 0, 2*Math.PI);
     ctx.fillStyle = "red";
     ctx.fill();
     ctx.closePath();
